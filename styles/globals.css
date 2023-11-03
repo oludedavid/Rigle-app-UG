@@ -1,0 +1,37 @@
+/* colors
+ background: linear-gradient(rgba(186, 0, 255, 1), rgba(82, 0, 255, 1));
+  background: var(
+      --color-gradiant,
+      linear-gradient(86deg, #7961f2 6.81%, #cc69f1 60.2%, #f8da8f 100%)
+    );
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  background: var(
+    --color-gradiant,
+    linear-gradient(86deg, #7961f2 10.81%, #000 100%)
+  );
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: "Inter" sans-serif;
+}
+
+button:hover {
+  color: #fff;
+  background: transparent;
+  border: 0.5px solid #fff;
+}
+
+a:hover {
+  color: #fff;
+  border: 0.5px solid #fff;
+  border-radius: 34px;
+}

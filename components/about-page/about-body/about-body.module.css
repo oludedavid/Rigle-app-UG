@@ -1,0 +1,213 @@
+.aboutBodyContainer {
+  font-family: "Inter" sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding-top: 100px;
+}
+.aboutBodyHeader {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  font-family: "Inter" sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 137.8%;
+  text-transform: uppercase;
+  background: linear-gradient(96deg, #fff -1.45%, #fff 104.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.aboutBodyHeader::after,
+.aboutBodyHeader::before {
+  content: "";
+  border-top: 2px solid var(--color-gradiant, #7961f2);
+  border-image: linear-gradient(
+    86deg,
+    #7961f2 6.81%,
+    #cc69f1 60.2%,
+    #f8da8f 100%
+  );
+  border-image-slice: 1;
+  border-image-width: 2px;
+  width: 91px;
+  height: 0px;
+}
+
+.listCardImage {
+  display: inline-block;
+  box-shadow: 0px 4px 99px 0px rgba(143, 1, 255, 0.17);
+  border-radius: 50%;
+}
+.listCardMainHeader {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Inter" sans-serif;
+  font-style: normal;
+  text-align: center;
+  line-height: 147.8%;
+  text-transform: capitalize;
+  background: var(
+    --color-gradiant,
+    linear-gradient(86deg, #7961f2 6.81%, #cc69f1 60.2%, #f8da8f 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.listCardSubHeader {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 147.8%;
+  text-transform: capitalize;
+}
+.listCardDescription {
+  color: #d8d8d8;
+  text-align: center;
+  font-family: "Inter" sans-serif;
+  font-size: 14.283px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 147.8%;
+  text-transform: capitalize;
+}
+
+/* management section */
+.managementCardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 130px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.managementListCardMainHeader {
+  font-size: 24px;
+}
+.managementListCardSubHeader,
+.managementListCardMainDescription {
+  font-size: 14px;
+}
+.managementlistCardImageContainer {
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background: linear-gradient(
+    86deg,
+    #7961f2 6.81%,
+    #cc69f1 60.2%,
+    #f8da8f 100%
+  );
+}
+.managementlistCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 340px;
+}
+.managementListCardFirstName {
+  background: var(
+    --color-gradiant,
+    linear-gradient(86deg, #7961f2 6.81%, #cc69f1 60.2%, #f8da8f 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: "Inter" sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.8%;
+  text-transform: capitalize;
+}
+.managementListCardSecondName {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.8%;
+  text-transform: capitalize;
+}
+
+/* Employees */
+.employeeCardContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px;
+}
+.employeeslistCardContainer {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  padding-bottom: 200px;
+  padding-top: 150px;
+}
+.employeeslistCardImageContainer {
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background: linear-gradient(
+    86deg,
+    #7961f2 6.81%,
+    #cc69f1 60.2%,
+    #f8da8f 100%
+  );
+  width: 174px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+.employeesListCardFirstName {
+  background: var(
+    --color-gradiant,
+    linear-gradient(86deg, #7961f2 6.81%, #cc69f1 60.2%, #f8da8f 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: "Inter" sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.8%;
+  text-transform: capitalize;
+}
+.employeesListCardSecondName {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.8%;
+  text-transform: capitalize;
+}
+.headerContainer {
+  display: flex;
+  gap: 10px;
+}

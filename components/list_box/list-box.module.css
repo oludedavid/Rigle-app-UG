@@ -1,0 +1,80 @@
+/* Container styles */
+.listBox_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+  height: 339px;
+  border-radius: 15px;
+  border: 1px solid var(--color-gradient, #7961f2);
+  background: #080808;
+  backdrop-filter: blur(13.5px);
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+/* Image box styles */
+.listBox_image_box {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listBox_image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Keep image proportions, fit within the box */
+}
+
+/* List item styles */
+.listBox_list_item_box {
+  width: 50%;
+  padding: 0 20px; /* Add some padding for better spacing */
+  list-style: none;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.listBox_list_item {
+  position: relative;
+  padding-bottom: 1.2em;
+}
+
+.listBox_list_item_description {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.42;
+}
+
+/* Bullet and line styles */
+.listBox_list_item:before {
+  content: "";
+  position: absolute;
+  left: -16px;
+  border-left: 1px solid #cc69f1;
+  height: 100%;
+  width: 1px;
+  top: 0;
+}
+
+.listBox_list_item:first-child:before {
+  top: 6px;
+}
+
+.listBox_list_item:after {
+  content: url("/images/round2.png");
+  position: absolute;
+  left: -24px;
+  top: 0;
+}
+
+.listBox_list_item:last-child:after {
+  content: ""; /* Remove the last bullet and line */
+}
+
+/* Hover effect */
+.listBox_container:hover {
+  border: 1px solid #cc69f1; /* Change border color on hover */
+}

@@ -1,0 +1,109 @@
+.work_call_to_action_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 930px;
+  height: 256px;
+  padding-bottom: 30px;
+  border-radius: 56.372px;
+  border: 1.311px solid var(--color-gradiant, #7961f2);
+  background: linear-gradient(
+    87deg,
+    rgba(121, 97, 242, 0.6) 2.86%,
+    rgba(204, 105, 241, 0.6) 59.2%,
+    rgba(248, 218, 143, 0.6) 101.2%
+  );
+  box-shadow: -9.17683px 39.32927px 250px 5.2439px #010104 inset;
+}
+
+.header {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter" sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.8%;
+  text-transform: capitalize;
+}
+
+.btn {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20.976px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 149.8%;
+  border-radius: 56.372px;
+  border: 0.7px solid
+    linear-gradient(
+      87deg,
+      rgba(121, 97, 242, 0.6) 2.86%,
+      rgba(204, 105, 241, 0.6) 59.2%,
+      rgba(248, 218, 143, 0.6) 101.2%
+    );
+  background: #000;
+  width: 215px;
+  height: 61.616px;
+  flex-shrink: 0;
+}
+
+.description {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter" sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.center {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.partners {
+  width: 100vw;
+  height: 176.07px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1a1626;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.partners_header {
+  height: 37.748px;
+  color: #fff;
+  font-family: "Inter" sans-serif;
+  font-size: 23.374px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 137.8%; /* 32.21px */
+  text-transform: capitalize;
+  padding: 20px;
+}
+
+.partners_image_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.partners_logo {
+  width: 173.917px;
+  height: 44.315px;
+}

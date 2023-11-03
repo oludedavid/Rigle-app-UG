@@ -1,0 +1,12 @@
+.work_container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+/* work process section */
+.work_process_container {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+}

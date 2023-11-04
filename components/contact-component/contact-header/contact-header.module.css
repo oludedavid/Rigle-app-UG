@@ -1,0 +1,120 @@
+.contactHeaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+.contactHeaderMainHeading {
+  width: 731px;
+  height: 66px;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter" sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140.5%;
+}
+.contactDescription {
+  width: 582px;
+  height: 28px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 149%;
+}
+
+.contactQuoteContainer {
+  position: relative;
+}
+.contactQuoteComma {
+  color: rgba(100, 75, 224, 0.47);
+  filter: brightness(60%);
+  font-family: Inria Serif;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 10px;
+  position: absolute;
+  top: 20px;
+  left: -80px;
+}
+.contactQuoteWords {
+  width: 776px;
+  height: 117px;
+  color: #fff;
+  font-family: "Inter" sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.profileContainer {
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.profileNameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profileFirstName {
+  background: var(
+    --color-gradiant,
+    linear-gradient(86deg, #7961f2 6.81%, #cc69f1 60.2%, #f8da8f 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Inter" sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.8%;
+  text-transform: capitalize;
+}
+.profileLastName {
+  color: #fff;
+  font-family: "Inter" sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.8%;
+  text-transform: capitalize;
+}
+.profilePosition {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter" sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 147.8%;
+  text-transform: capitalize;
+}
+.imageContainer {
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background: linear-gradient(
+    86deg,
+    #7961f2 6.81%,
+    #cc69f1 60.2%,
+    #f8da8f 100%
+  );
+  width: 128px;
+  height: 128px;
+}
+.imageItem {
+  width: 100%;
+  height: 100%;
+}

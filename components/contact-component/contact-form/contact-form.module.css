@@ -1,0 +1,91 @@
+.formContainer {
+  width: 1095px;
+  height: 800px;
+  border-radius: 23px;
+  border: 1px solid var(--color-gradiant, #7961f2);
+  background: rgba(69, 69, 69, 0.24);
+  box-shadow: 0px 4px 6px 0px rgba(35, 38, 95, 0.31);
+  backdrop-filter: blur(24.5px);
+  padding: 70px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.formMainContentBox {
+  width: 100%;
+  height: 100%;
+}
+.formInput::placeholder {
+  width: 172px;
+  height: 22px;
+  color: #999;
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 137.193%;
+  text-transform: capitalize;
+}
+.formLabel {
+  width: 207px;
+  height: 35px;
+  color: #fff;
+  font-family: "Inter" sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.formSelect.form-select option {
+  color: #999;
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 137.193%;
+  text-transform: capitalize;
+}
+
+.formBox5 .formLabel {
+  width: 362px;
+  height: 35px;
+}
+.formInputSize {
+  width: 456px;
+  height: 61px;
+  border-radius: 6px;
+  border: 0.5px solid #666;
+  background: rgba(69, 69, 69, 0.24);
+}
+
+.formSelect {
+  -webkit-appearance: menulist; /* Reset the appearance property for Webkit browsers */
+  appearance: menulist; /* Reset the appearance property for non-Webkit browsers */
+  padding-right: 3px;
+}
+.formBtn {
+  width: 205px;
+  height: 47px;
+  border-radius: 43px;
+  background: var(
+    --color-gradiant,
+    linear-gradient(86deg, #7961f2 6.81%, #cc69f1 60.2%, #f8da8f 100%)
+  );
+  color: #fff;
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 149.8%;
+}
+.formTextArea {
+  width: 930px;
+  height: 191px;
+  border-radius: 6px;
+  border: 0.5px solid #666;
+  background: rgba(69, 69, 69, 0.24);
+}
+.formLabelTextArea {
+  width: 500px;
+}
